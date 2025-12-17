@@ -34,7 +34,7 @@ require 'conexao.php';
                             
                         ?>
                         <form action="acoes.php" method="POST">
-                            <input type="hidden" name="usuario_id" value="<?=$usuario['nome']?>">
+                            <input type="hidden" name="usuario_id" value="<?=$usuario['ID']?>">
                             <div class="mb-3">
                                 <label>Nome</label>
                                 <input type="text" name="nome" value="<?=$usuario['nome']?>" class="form-control">
